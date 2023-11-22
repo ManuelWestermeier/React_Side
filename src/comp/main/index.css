@@ -1,0 +1,11 @@
+.main {
+    padding: 20px;
+    padding-left: 10%;
+}
+
+.home {
+    margin: 10%;
+    margin-left: 0;
+    font-size: 1.3rem;
+    max-width: 800px;
+}

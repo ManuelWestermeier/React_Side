@@ -1,0 +1,52 @@
+.header {
+    height: 30px;
+    padding: 20px;
+    padding-left: 10%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #161616;
+    box-shadow: 0 0 30px -5px rgb(0, 204, 255);
+    z-index: 1000;
+}
+
+.header button {
+    margin-left: auto;
+    width: 35px;
+    height: 35px;
+}
+
+.header button svg {
+    width: 40px;
+    height: 40px;
+}
+
+.header button .sidebar {
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    width: 90%;
+    max-width: 500px;
+    height: calc(100vh - 70px);
+    background-color: #161616;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    z-index: 900;
+    transition: all 0.3s ease-in-out;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    gap: 20px;
+    overflow-y: auto;
+}
+
+.header button .sidebar a {
+    margin: 10px;
+}
+
+.header button .sidebar-fous {
+    right: 0;
+}

@@ -1,0 +1,36 @@
+.list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    place-items: center;
+}
+
+.list a {
+    margin: 10px;
+}
+
+.a-fous {
+    outline: 3px solid greenyellow;
+}
+
+
+.projects {
+    transition: all 0.3s linear;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-gap: 15px;
+    place-items: center;
+    margin: 30px;
+}
+
+.projects .toggler {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+.m30 {
+    margin-left: 30px;
+}
+
+.ml20 {
+    margin-left: 8%;
+}
