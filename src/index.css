@@ -17,6 +17,7 @@
   margin: 0;
   padding: 0;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  word-wrap: break-word;
 }
 
 body {
@@ -62,7 +63,7 @@ a {
   transition: all 0.3s linear;
   position: relative;
   cursor: pointer;
-  filter: drop-shadow(0 0 10px rgb(0, 204, 255))
+  filter: drop-shadow(0 0 10px rgb(0, 204, 255));
 }
 
 a::after {
@@ -104,7 +105,7 @@ button:hover {
 
 :focus {
   outline: none;
-  box-shadow: 0px 0px 30px -10px rgb(0, 204, 255);
+  box-shadow: 0px 0px 30px -10 rgb(0, 204, 255);
 }
 
 img {

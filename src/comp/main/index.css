@@ -1,11 +1,15 @@
 .main {
     padding: 20px;
     padding-left: 10%;
+    min-height: 600px;
 }
 
 .home {
-    margin: 10%;
+    margin: 0% 10%;
     margin-left: 0;
     font-size: 1.3rem;
-    max-width: 800px;
+    height: calc(100vh - 100px);
+    min-height: 300px;
+    display: grid;
+    place-content: center;
 }

@@ -1,4 +1,4 @@
-import MainHeader from "./comp/heder/index.jsx"
+import MainHeader from "./comp/header/index.jsx"
 import Main from "./comp/main/index.jsx"
 import Footer from "./comp/footer/index.jsx"
 
