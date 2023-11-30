@@ -1,15 +1,11 @@
 .list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    place-content: center;
+    place-items: center;
 }
 
 .list a {
     margin: 10px;
-}
-
-.a-fous {
-    outline: 3px solid greenyellow;
 }
 
 
@@ -18,7 +14,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     place-items: center;
-    gap: 1%;
+    gap: 10px;
 }
 
 .projects .toggler {
@@ -26,6 +22,11 @@
     border-radius: 5px;
     max-width: 400px;
     background-color: rgba(0, 0, 0, 0.7);
+}
+
+.projects .toggler img {
+    width: 100%;
+    margin: auto;
 }
 
 .projects .toggler:hover {
@@ -38,4 +39,8 @@
 
 .myWork {
     min-height: 50vh;
+}
+
+.a-fous {
+    transform: scale(2);
 }

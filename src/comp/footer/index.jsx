@@ -1,8 +1,5 @@
 import "./index.css"
 
-const Email = "Manuel.Westermeier111@gmail.de"
-const Telephone = "4915256427900"
-
 export default function Footer() {  
     return (
       <>

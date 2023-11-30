@@ -12,6 +12,8 @@ export default function Main(){
                 <i><a href="#programming">{">> "}Meine Ersten Programmier Erfahrungen</a></i>
                 <br />
                 <i><a href="#projects">{">> "}Meine Projeckte bis jetzt sind</a></i>
+                <br />
+                <i><a href="#contact">{">> "}Kontakt</a></i>
             </div>
             <MyWork></MyWork>
         </section>

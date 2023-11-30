@@ -19,3 +19,14 @@
     display: unset;
     transition: all 0.3s ease-in-out;
 }
+
+
+.toggler .togglheader {
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.toggler .togglheader svg {
+    fill: white;
+}
